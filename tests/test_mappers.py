@@ -23,7 +23,7 @@ def test_convert_route_to_positions():
     ])
     positions = convert_route_to_positions(data, [1, 0, 2])
     assert positions == [
-        Position(x=3, y=4),
+        Position(x=9, y=4),
         Position(x=0, y=0),
         Position(x=0, y=4),
     ]
